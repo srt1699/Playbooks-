@@ -8,7 +8,7 @@
         state: present
     - name: Create Index.html file
       copy:
-       content: "Welcome to LEADS"
+       content: "WELCOME TO  LEADS"
        dest: /var/www/html/index.html
     - name: Start and Enable httpd service
       service:
